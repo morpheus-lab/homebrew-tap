@@ -10,15 +10,23 @@ If not already done, install Homebrew first.
 
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-## Install Morpheus
+## Install latest version of Morpheus
 
 Add the morpheus tap to your Homebrew installation:
 
     brew tap morpheus.lab/homebrew https://gitlab.com/morpheus.lab/homebrew.git/
 
-Finally, simply install Morpheus with:
+Finally, simply install the latest version of Morpheus with:
 
     brew install morpheus
+
+## Install specific version of Morpheus
+
+To install a specific version of Morpheus, you can append the desired version number with ```@<version>```:
+
+    brew install morpheus@<version>
+
+An example would be: ```brew install morpheus@2.2.0b3```.
 
 ## Update Morpheus
 
@@ -38,4 +46,4 @@ Or upgrade only Morpheus with:
 
     brew upgrade morpheus
 
-More information about updating and, if desired, how to prevent Morpheus from being automatically updated by Homebrew, uninstall, etc. can be found in the [Homebrew FAQ](https://docs.brew.sh/FAQ/).
+More information about updating and, if desired, how to prevent Morpheus from being automatically updated by Homebrew, uninstall, etc. can be found in the [Homebrew FAQ](https://docs.brew.sh/FAQ).
