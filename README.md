@@ -20,14 +20,6 @@ Finally, simply install the latest version of Morpheus with:
 
     brew install morpheus
 
-## Install specific version of Morpheus
-
-To install a specific version of Morpheus, you can append the desired version number with ```@<version>```:
-
-    brew install morpheus@<version>
-
-An example would be: ```brew install morpheus@2.2.0b3```.
-
 ## Update Morpheus
 
 First, update the formulae and Homebrew itself:
@@ -47,3 +39,25 @@ Or upgrade only Morpheus with:
     brew upgrade morpheus
 
 More information about updating and, if desired, how to prevent Morpheus from being automatically updated by Homebrew, uninstall, etc. can be found in the [Homebrew FAQ](https://docs.brew.sh/FAQ).
+
+## Install specific version of Morpheus
+
+To install a specific version of Morpheus, you can append the desired version number with ```@<version>```:
+
+    brew install morpheus@<version>
+
+An example would be: ```brew install morpheus@2.2.0b3```.
+
+To list all versions available online, you can simply do a brew search:
+
+    brew search morpheus
+
+## Uninstall Morpheus
+
+Delete Morpheus with:
+
+    brew uninstall morpheus
+
+Forcibly remove Morpheus along with deleting all it's versions:
+
+    brew uninstall --force morpheus
