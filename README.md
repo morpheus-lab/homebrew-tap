@@ -1,6 +1,11 @@
-# Homebrew
+
+<h1>Homebrew Tap for Morpheus</h1>
 
 Install Morpheus with Homebrew formulae from this tap.
+
+**Contents**
+
+[[_TOC_]]
 
 ## Install Homebrew
 
@@ -10,7 +15,7 @@ If not already done, install Homebrew first.
 
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-## Install latest version of Morpheus
+## Install Morpheus
 
 ### *1. Tap*
 
