@@ -24,6 +24,12 @@ Simply install the latest version of Morpheus with:
 
     brew install morpheus
 
+### 3. Launch
+
+Start morpheus from the command line by typing:
+
+    morpheus-gui
+
 ## Update Morpheus
 
 First, update the formulae and Homebrew itself:
