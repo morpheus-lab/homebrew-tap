@@ -12,15 +12,15 @@ If not already done, install Homebrew first.
 
 ## Install latest version of Morpheus
 
-### 1. Tap
+### *1. Tap*
 
-Add this Morpheus tap to your Homebrew installation:
+*If you have never used Homebrew to install Morpheus before, add this Morpheus tap first:*
 
     brew tap morpheus-lab/tap
 
 ### 2. Install
 
-Finally, simply install the latest version of Morpheus with:
+Simply install the latest version of Morpheus with:
 
     brew install morpheus
 
