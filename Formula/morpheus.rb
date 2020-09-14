@@ -28,10 +28,13 @@ class Morpheus < Formula
 
   def caveats
     <<~EOS
-      To start morpheus from the command line run:
+      To start Morpheus, type the following command:
+
         morpheus-gui
-      For further notes on this version read:
+
+      For more information about this version visit:
       https://morpheus.gitlab.io/download/v#{version}/
+
     EOS
   end
 
