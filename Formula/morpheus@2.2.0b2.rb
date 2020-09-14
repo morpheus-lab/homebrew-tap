@@ -25,7 +25,13 @@ class MorpheusAT220b2 < Formula
     system "make", "install"
   end
 
-  #test do
-  #  system "morpheus/morpheus", "--version"
-  #end
+  def caveats
+    <<~EOS
+      To start morpheus from the command line run:
+        morpheus-gui
+      For further notes on this version read:
+      https://morpheus.gitlab.io/download/v#{version}/
+    EOS
+  end
+
 end
