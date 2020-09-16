@@ -29,6 +29,8 @@ Simply install the latest version of Morpheus with:
 
     brew install morpheus
 
+And follow possibly emerging instructions from Homebrew.
+
 ### 3. Launch
 
 Start morpheus from the command line by typing:
