@@ -1,4 +1,4 @@
-class Morpheus < Formula
+class MorpheusAT220b3 < Formula
   desc "Modelling environment for Multi-Cellular Systems Biology"
   homepage "https://morpheus.gitlab.io"
   url "https://gitlab.com/morpheus.lab/morpheus/-/archive/v2.2.0-beta3/morpheus-v2.2.0-beta3.tar.gz"
