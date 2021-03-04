@@ -1,9 +1,9 @@
-class MorpheusDevelop < Formula
+class MorpheusPymapper < Formula
   desc "Modelling environment for multi-cellular systems biology"
   homepage "https://morpheus.gitlab.io/"
   license "BSD-3-clause"
 
-  head "https://gitlab.com/morpheus.lab/morpheus.git", :branch => "develop"
+  head "https://gitlab.com/fitmulticell/morpheus.git", :branch => "py_script"
 
   depends_on "boost" => :build
   depends_on "cmake" => :build
@@ -28,10 +28,10 @@ class MorpheusDevelop < Formula
     <<~EOS
       To start Morpheus, type the following command:
 
-        open /usr/local/Cellar/morpheus-develop/HEAD-*/Morpheus.app
+        open /usr/local/Cellar/morpheus-pymapper/HEAD-*/Morpheus.app
 
       For more information about this branch visit:
-      https://gitlab.com/morpheus.lab/morpheus/-/tree/develop/
+      https://gitlab.com/fitmulticell/morpheus/-/tree/py_script
 
     EOS
   end
